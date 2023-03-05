@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/old_files/index.html",
+    "items": [
+      "/old_files/posts/post-with-code/index.html",
+      "/old_files/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/old_files/posts/post-with-code/index.html",
+      "/posts/hello world/index.html",
+      "/old_files/posts/welcome/index.html"
+    ]
+  }
+]

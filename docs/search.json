@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/hello world/index.html",
+    "href": "posts/hello world/index.html",
+    "title": "hello world!",
+    "section": "",
+    "text": "I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m loojing at you).\nSo, lately I’ve been:\n\ngrinding through fast.ai Practical Deep Learning for Coders (just finished the 4th lesson this week)\nexploring website domain name stuff and setting up an website of my previous project (Primary care KPI’s exploration tool, mgfhub.com)\nreconnecting to social media (i’ve been away for a while now), setting up linkedin, twitter and joining relevant discord servers\nafter completing Postgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS, I felt the need to keep learning about data mining, so i’m doing a single course in Predictive Methods of Data Mining\nexploring DL, ML, NLP and LLM mian concepts and developments (looking at you chatbase.co)\ntrying using and failing numerous LLM on jupyter notebooks, mainly after a shower (shower “what if…” thought treads)\nexploring how to start a blog (thanks fast.ai for the push!)\n\nInitially I thought implementing a blog with Dash and publish it on pythonanywhere.com, since I’ve worked with Flask in the past months. But that would take more time to set up something that might be already solved.\nDuring fast.ai lessons Jeremy talked about fastpages, but seems that the project has been discontinued.\nI found REPL Notes, it had a pretty and simple solution. It seems that the paid version wasn’t functioning right and it was too strict to personalize.\nI ended up with fastpages’ sucessor, quatro.org. It offers enough personalization with clean and minimalistic visuals (thanks bootstrap). It has both code snippets and python visual implementation available. cool :sunglasses:\nThat’s what I appreciate most: eficient implementation that automates tasks that saves time.\nI’m super exited about the upcoming future (with NLP everywhere!). Now that I have finished implementing my blog, I can check another task form my to-do list =)"
+  },
+  {
+    "objectID": "old_files/posts/post-with-code/index.html",
+    "href": "old_files/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "old_files/posts/welcome/index.html",
+    "href": "old_files/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "old_files/index.html",
+    "href": "old_files/index.html",
+    "title": "myblog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old_files/about.html",
+    "href": "old_files/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "diogo carapito",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\n\nMar 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nhello world!\n\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\ndiogo carapito\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\n\nMar 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "Medical Doctor\nStudied @NOVA Medical School\n3rd year General and Family Medicine resident @ARSLVT, Portugal\nPostgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS"
+  }
+]
