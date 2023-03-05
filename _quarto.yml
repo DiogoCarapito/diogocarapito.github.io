@@ -1,19 +1,22 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "myblog"
+  title: "diogo carapito"
+  favicon: favicon.ico
   navbar:
-    right:
+    left:
       - about.qmd
+    right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/diogocarapito
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/diogocarapito
 format:
   html:
-    theme: cosmo
+    theme: flaty
     css: styles.css
 
-execute:
-  freeze: true
+
+
