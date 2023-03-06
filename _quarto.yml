@@ -3,16 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "diogo carapito"
+  title: "Diogo Carapito"
   favicon: favicon.ico
   navbar:
     left:
       - about.qmd
     right:
-      - icon: github
-        href: https://github.com/diogocarapito
       - icon: twitter
         href: https://twitter.com/diogocarapito
+      - icon: github
+        href: https://github.com/diogocarapito
 format:
   html:
     theme:
