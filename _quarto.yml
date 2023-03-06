@@ -15,7 +15,9 @@ website:
         href: https://twitter.com/diogocarapito
 format:
   html:
-    theme: flaty
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
 
 
