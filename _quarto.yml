@@ -5,6 +5,8 @@ project:
 website:
   title: "Diogo Carapito"
   favicon: favicon.ico
+  twitter-card: true
+  site-url: https://diogocarapito.com
   navbar:
     left:
       - about.qmd
