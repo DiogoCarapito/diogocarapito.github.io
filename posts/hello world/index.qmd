@@ -1,5 +1,5 @@
 ---
-title: "Hello world!"
+title: "Hello, world!"
 date: "2023-03-05"
 categories: [updates]
 image: Diogo DALL-E circle 512.png
