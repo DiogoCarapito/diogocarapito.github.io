@@ -10,7 +10,7 @@ I've been charging into different directions on my journey to build a bridges be
 So, lately I've been:
 
 - grinding through **fast.ai Practical Deep Learning for Coders** (just finished the 4th lesson this week)
-- exploring **website domain name** stuff and setting up an website of my previous project (Primary care KPI's exploration tool, [mgfhub.com](https://www.mgfhub.com))
+- exploring **website domain name** stuff and setting up an website of my previous project (Primary care KPI's exploration tool, [mgfhub.com](https://www.diogocarapito.pythonanywhere.com))
 - reconnecting to **social media** (I've been away for a while now), setting up linkedin, twitter and joining relevant discord servers
 - after completing Postgraduate Program in Information Management and Business Intelligence in Healthcare @[NOVA IMS](https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/), I felt the need to keep learning about data mining, so i'm doing a single course on **Predictive Methods of Data Mining**
 - exploring DL, ML, NLP and LLM main concepts and recent developments (looking at you [chatbase.co](https://www.chatbase.co/), [ChatPDF](https://www.chatpdf.com) and [Quarto Help Bot](https://quarto-bot.onrender.com/))
