@@ -79,7 +79,7 @@ They propose generative modeling framework, EHR-Safe, that can generate highly r
 - [EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records](https://www.researchsquare.com/article/rs-2347130/v1){target="_blank"}
 - [Open AI Fine-tuning guide](https://platform.openai.com/docs/guides/fine-tuning){target="_blank"}
 
-There were many more interesting sessions, visit [https://www.nlpsummit.org/](https://www.nlpsummit.org/){target="_blank"} if you want further information.
+There were many more interesting sessions i didn't describe here, visit [https://www.nlpsummit.org/](https://www.nlpsummit.org/){target="_blank"} if you want further information.
 I'll be there next year for sure!
 Thanks for reading!
 
