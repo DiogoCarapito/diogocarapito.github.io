@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -147,11 +147,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="healthcare">healthcare <span class="quarto-category-count">(1)</span></div><div class="category" data-category="learnings">learnings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nlp">nlp <span class="quarto-category-count">(1)</span></div><div class="category" data-category="projects">projects <span class="quarto-category-count">(1)</span></div><div class="category" data-category="updates">updates <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -176,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="learnings,nlp,healthcare" data-listing-date-sort="1680822000000" data-listing-file-modified-sort="1680871653898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="learnings,nlp,healthcare" data-listing-date-sort="1680822000000" data-listing-file-modified-sort="1680872138219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="thumbnail">
 <p><a href="./posts/NLP_Summit_Healthcare_2023/index.html"> <img src="https://www.nlpsummit.org/wp-content/uploads/2021/02/NLP-Summit-Healthcare-logo.png" class="thumbnail-image"> </a></p>
 </div>
@@ -188,19 +186,6 @@ NLP Summit Healthcare 2023
 <div class="listing-subtitle">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('learnings'); return false;">
-learnings
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nlp'); return false;">
-nlp
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('healthcare'); return false;">
-healthcare
-</div>
-</div>
-<a href="./posts/NLP_Summit_Healthcare_2023/index.html">
 <div class="listing-description">
 This week I attended the <strong>NLP Summit Healthcare</strong> 2023, a free virual event organized by the John Snow Labs. It was a great…
 </div>
@@ -226,13 +211,6 @@ Webapps and tutorials
 <div class="listing-subtitle">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('projects'); return false;">
-projects
-</div>
-</div>
-<a href="./posts/webapp/index.html">
 <div class="listing-description">
 This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding throught many youtube tutorials on both <strong>backend</strong> and <strong>fr…</strong>
 </div>
@@ -258,13 +236,6 @@ Hello, world!
 <div class="listing-subtitle">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('updates'); return false;">
-updates
-</div>
-</div>
-<a href="./posts/hello_world/index.html">
 <div class="listing-description">
 I’ve been charging into different directions on my journey to build a bridges between <strong>health</strong> and <strong>tech</strong> (NLP and…
 </div>

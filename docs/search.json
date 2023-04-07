@@ -1,89 +1,5 @@
 [
   {
-    "objectID": "posts/webapp/index.html",
-    "href": "posts/webapp/index.html",
-    "title": "Webapps and tutorials",
-    "section": "",
-    "text": "This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding throught many youtube tutorials on both backend and frontend structure.\nFor the backend I’ve been cruising through Pinecone, LangChain and OpenAI API, thanks to tutorials form James Briggs and Data independent. Google colab has been my best friend.\nEven though the backend is the new exiting stuff, I have a sweet spot for the way it’s presented. The frontend must:\nI started with Flask/Dash vs Django, and after some thought, since i have built with it before, I picked Dash. I ended up building a scafold, the development was faster this time arround but it required some hardcode. The result was OK but not stunning. Dash is pretty taxing on layout and design. I deployed it on render (that was a first :smile:)\nLast night I discovered Streamlit. I was captivated by it’s beauty and simplicity and ended up creating a simple scafolding witht he help of Fanilo, Misra Turp and Coding Is Fun tutorials.\nThis morning I stumbled again on Pynecone and I was amazed (thanks to NeuralNine’s video), it seem to a have all I need for my simple implementation. It’s on alpha stage, but I guess I’ll give it a try.\nIf that wasn’t enought, it seems that FastAPI can also serve as a framework for a webapp. This will be fun…\nI’m not sure what framework will I end up with. Let’s keep going!"
-  },
-  {
-    "objectID": "posts/webapp/index.html#section",
-    "href": "posts/webapp/index.html#section",
-    "title": "Webapps and tutorials",
-    "section": "",
-    "text": "Some stuff I found useful this week:\n\nemoji cheat sheet - emoji code list\nhttps://cssgradient.io/ - tool to create gradients\nData Color Picker - Palette, Single Hue and Divergent color generators"
-  },
-  {
-    "objectID": "posts/hello world/index.html",
-    "href": "posts/hello world/index.html",
-    "title": "Hello, world!",
-    "section": "",
-    "text": "I’ve been charging into different directions on my journey to build a bridges between health and tech (NLP and LLMs, I’m looking at you). There is so much potential and I have so many ideas!\nSo, lately I’ve been:\n\ngrinding through fast.ai Practical Deep Learning for Coders (just finished the 4th lesson this week)\nexploring website domain name stuff and setting up an website of my previous project (Primary care KPI’s exploration tool, mgfhub.com)\nreconnecting to social media (I’ve been away for a while now), setting up linkedin, twitter and joining relevant discord servers\nafter completing Postgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS, I felt the need to keep learning about data mining, so i’m doing a single course on Predictive Methods of Data Mining\nexploring DL, ML, NLP and LLM main concepts and recent developments (looking at you chatbase.co, ChatPDF and Quarto Help Bot)\ntrying and failing implmenenting LLMs with jupyter notebooks\nexploring how to start a blog (thanks fast.ai for the push!)\n\nInitially I thought implementing a blog with Dash and publish it on pythonanywhere.com, since I’ve worked with Flask in the past months. But that would take more time to set up something that might be already solved.\nDuring fast.ai lessons Jeremy talked about fastpages, but seems that the project has been discontinued.\nI found REPL Notes, it had a pretty and simple solution. It seems that the paid version wasn’t functioning right and it was too strict for personalization.\nI ended up with fastpages’ sucessor quatro.org. It offers enough personalization with clean and minimalistic visuals (thanks bootstrap). It has both code snippets and python visual implementation available. cool B-)\nThat’s what I appreciate most: eficient implementation and task automation that saves time.\nI’m super exited about the upcoming future (with NLP everywhere!). Now that I have finished implementing my blog, I can check it form my to-do list =)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "NLP Summit Healthcare 2023\n\n\n\n\n\n\n\nlearnings\n\n\nnlp\n\n\nhealthcare\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWebapps and tutorials\n\n\n\n\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHello, world!\n\n\n\n\n\n\n\nupdates\n\n\n\n\n\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Medical Doctor\nStudied @NOVA Medical School\n3rd year General and Family Medicine resident @ARSLVT, Portugal\nPostgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS"
-  },
-  {
-    "objectID": "posts/unstructured/index.html",
-    "href": "posts/unstructured/index.html",
-    "title": "Unstructured",
-    "section": "",
-    "text": "I’ve been experimenting with LangChain,\n# Install Requirements\n!apt-get -qq install poppler-utils tesseract-ocr\n\n# Upgrade Pillow to latest version\n%pip install -q --user --upgrade pillow\n\n# Install Python Packages\n%pip install -q unstructured[\"local-inference\"]==0.5.2 layoutparser\n\n# upgrade to the latest, though has not been tested\n# %pip install -q --upgrade unstructured layoutparser\n%pip install -q \"detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2\"\n\n# Finaly install langchain\n!pip install langchain"
-  },
-  {
-    "objectID": "posts/NLP Summit Healthcare 2023/index.html",
-    "href": "posts/NLP Summit Healthcare 2023/index.html",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "",
-    "text": "This week I attended the NLP Summit Healthcare 2023, a free virual event organized by the John Snow Labs. It was a great event with a lot of interesting talks. I’ll share some of the key takeaways."
-  },
-  {
-    "objectID": "posts/NLP Summit Healthcare 2023/index.html#nlp-summit-healthcare-2023",
-    "href": "posts/NLP Summit Healthcare 2023/index.html#nlp-summit-healthcare-2023",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "NLP Summit Healthcare 2023",
-    "text": "NLP Summit Healthcare 2023\nThe NLP Summit Healthcare 2023 was a free virtual event. It was organized by the John Snow Labs\nI’ll share some of the key takeaways from the talks I attended.\nBest practices - Test your models!! - hy would you expect untested software to work 2. dont reuse academic models in production 1. publish reserach =/= building reliable systems 3. test beyond accuracy 1. Rubustness Bias, Fairness, Toxicity, Efficiency, Safety"
-  },
-  {
-    "objectID": "posts/NLP Summit Healthcare 2023/index.html#best-practices-when-developing-nlp-models",
-    "href": "posts/NLP Summit Healthcare 2023/index.html#best-practices-when-developing-nlp-models",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "1. Best practices when developing NLP models",
-    "text": "1. Best practices when developing NLP models\nPresented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some impoeratn best practices when developing NLP models:\n\nTest your models! - why would you expect untested software to work?\nDon’t reuse academic models in production - publish reserach ≠ building reliable systems\nTest beyond accuracy - Rubustness, Bias, Fairness, Toxicity, Efficiency, Safety"
-  },
-  {
-    "objectID": "posts/NLP Summit Healthcare 2023/index.html#some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare",
-    "href": "posts/NLP Summit Healthcare 2023/index.html#some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "3. Some organizations that are doing interesting work in NLP in healthcare:",
-    "text": "3. Some organizations that are doing interesting work in NLP in healthcare:\n\nJohn Snow Labs - organizer of the summit and creator of state-of-the-art NLP in healthcare, like NLP test and SparkNLP\nDiscovery Lab - Lab funded by Elsevier, Vrije Universiteit Amsterdam and the University of Amsterdam that operates at the crossroads of Knowledge Representation, Machine Learning and Natural Language Processing.\nNeuralMed - an healthcare AI company that develops AI solutions for the healthcare industry.\nScience IO/ - works on medical text into enriched data to build solutions that improve patient care."
-  },
-  {
-    "objectID": "posts/NLP Summit Healthcare 2023/index.html#this-is-a-list-of-some-interesting-projects-that-were-presented-at-the-summit",
-    "href": "posts/NLP Summit Healthcare 2023/index.html#this-is-a-list-of-some-interesting-projects-that-were-presented-at-the-summit",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "4. This is a list of some interesting projects that were presented at the summit:",
-    "text": "4. This is a list of some interesting projects that were presented at the summit:\n\nBioMedLM\nBioGPT\nProtoPatient Demo\nClinical IE\n\nFinally, I’ll share some of the articles that were cited in the talks: Finally, I’ll share some of the articles that were cited in the talks:\n\nDataset Carto graphy: Mapping and Diagnosing Datasets with Training Dynamics\nFive sources of bias in natural language processing\nBeyond Accuracy: Behavioral Testing of NLP Models with CheckList\nQuantifying Social Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness Metrics\nTruthfulQA: Measuring How Models Mimic Human Falsehoods\nThis Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text\nPhysician Global Assessment (PGA)\nEHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records\nOpen AI Fine-tuning guide\n\nI’ll be there next year for sure!\nThanks for reading!"
-  },
-  {
-    "objectID": "posts/NLP Summit Healthcare 2023/index.html#section",
-    "href": "posts/NLP Summit Healthcare 2023/index.html#section",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "2.",
-    "text": "2."
-  },
-  {
     "objectID": "posts/hello_world/index.html",
     "href": "posts/hello_world/index.html",
     "title": "Hello, world!",
@@ -105,11 +21,25 @@
     "text": "1. Best practices when developing NLP models\nPresented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:\n\nTest your models! - why would you expect untested software to work? Test your models with real data and real use cases and acess it’s performance.\nDon’t reuse academic models in production - published reserach ≠ building reliable systems, testing and fine-tuning are essencial parts of developing a functional tool.\nTest beyond accuracy - Test for Rubustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed NLP test to help with model testing beyond regular benchmarks."
   },
   {
-    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#section",
-    "href": "posts/NLP_Summit_Healthcare_2023/index.html#section",
+    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#mitigating-bias-in-healthcare-language-models",
+    "href": "posts/NLP_Summit_Healthcare_2023/index.html#mitigating-bias-in-healthcare-language-models",
     "title": "NLP Summit Healthcare 2023",
-    "section": "2.",
-    "text": "2."
+    "section": "2. Mitigating bias in healthcare language models",
+    "text": "2. Mitigating bias in healthcare language models\nGaurav Kaushik from ScienceIO presented a talk about mitigating bias in healthcare language models and the importance of it’s evaluation. Performance benchmarks lack the statistical power, they aren’t well validated enought and don’t disencentivize the use of biased systems.\n\nAlgorithmic bias\n\nSystematic and repeatable errors that yield unfair outcomes which benefit certain groups over others\nHealthcare LP systems will influence clinical outcomes and therefore will mitigate or exacerbate outcome disparities\n\nSelection Bias - data used in training the model does not represent real-world\nLabel bias - mismatch between annotations and target, e.g. due to judgement, human error, or label ambiguity\nTraining bias - models amplify biases in the training data\nSemantic bias - bias from input representations such as inappropriate word associations\nDemographic bias - improper sensitivity to race or gender, or impaired performance on attributes related to subgroups\nDomain Bias - error bias in medical subdomains, such as disease areas, which can impair generalization\n\nCheck this article for further information: Beyond Accuracy: Behavioral Testing of NLP Models with CheckList"
+  },
+  {
+    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#prototypical-networks-for-interpretable-diagnosis-prediction",
+    "href": "posts/NLP_Summit_Healthcare_2023/index.html#prototypical-networks-for-interpretable-diagnosis-prediction",
+    "title": "NLP Summit Healthcare 2023",
+    "section": "3. Prototypical Networks for Interpretable Diagnosis Prediction",
+    "text": "3. Prototypical Networks for Interpretable Diagnosis Prediction\nBetty van Aken from DATEXIS Research Group presented about a language model that makes predictions based on parts of the text that are similar to prototypical patients providing justifications that doctors understand. It uses a prototypical network with label-wise attention to find the most similar patients to the input text and then uses a transformer to predict the diagnosis. This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.\nCheck their demo and the paper here: This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text"
+  },
+  {
+    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records",
+    "href": "posts/NLP_Summit_Healthcare_2023/index.html#ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records",
+    "title": "NLP Summit Healthcare 2023",
+    "section": "4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records",
+    "text": "4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records\nAI in healthcare has important privacy concerns, especially when dealing with sensitive data like Eletronic Health Records. Cloud AI Team presented one way to overcome this challenges is to generating high-fidelity, privacy-preserving synthetic HR data. They propose generative modeling framework, EHR-Safe, that can generate highly realistic synthetic EHR data that are robust to privacy attacks\nEHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records"
   },
   {
     "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare",
@@ -126,13 +56,6 @@
     "text": "6. This is a list of some interesting projects that were presented at the summit:\n\nSpark NLP - an open source text processing library for Python, Java, and Scala.\nNLP test/ - a suit of tests to mitigating bias for NLP models.\nBioMedLM - a GPT style language model trained on biomedical abstracts and papers.\nBioGPT - a pre-trained language models on the biomedical domain.\nProtoPatient Demo - diagnsotic predictions using clinical text and prototypical patients.\nClinical IE - a Large Language Model for information extraction of Clinical Text"
   },
   {
-    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#mitigating-bias-in-healthcare-language-models",
-    "href": "posts/NLP_Summit_Healthcare_2023/index.html#mitigating-bias-in-healthcare-language-models",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "2. Mitigating bias in healthcare language models",
-    "text": "2. Mitigating bias in healthcare language models\nGaurav Kaushik from ScienceIO presented a talk about mitigating bias in healthcare language models and the importance of it’s evaluation. Performance benchmarks lack the statistical power, they aren’t well validated enought and don’t disencentivize the use of biased systems.\n\nAlgorithmic bias\n\nSystematic and repeatable errors that yield unfair outcomes which benefit certain groups over others\nHealthcare LP systems will influence clinical outcomes and therefore will mitigate or exacerbate outcome disparities\n\nSelection Bias - data used in training the model does not represent real-world\nLabel bias - mismatch between annotations and target, e.g. due to judgement, human error, or label ambiguity\nTraining bias - models amplify biases in the training data\nSemantic bias - bias from input representations such as inappropriate word associations\nDemographic bias - improper sensitivity to race or gender, or impaired performance on attributes related to subgroups\nDomain Bias - error bias in medical subdomains, such as disease areas, which can impair generalization\n\nCheck this article for further information: Beyond Accuracy: Behavioral Testing of NLP Models with CheckList"
-  },
-  {
     "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#finally-ill-share-some-of-the-articles-that-were-cited-in-the-talks",
     "href": "posts/NLP_Summit_Healthcare_2023/index.html#finally-ill-share-some-of-the-articles-that-were-cited-in-the-talks",
     "title": "NLP Summit Healthcare 2023",
@@ -140,17 +63,31 @@
     "text": "Finally, I’ll share some of the articles that were cited in the talks:\n\nDataset Carto graphy: Mapping and Diagnosing Datasets with Training Dynamics\nFive sources of bias in natural language processing\nBeyond Accuracy: Behavioral Testing of NLP Models with CheckList\nQuantifying Social Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness Metrics\nTruthfulQA: Measuring How Models Mimic Human Falsehoods\nThis Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text\nPhysician Global Assessment (PGA)\nEHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records\nOpen AI Fine-tuning guide\n\nThere were many more interesting sessions, visit https://www.nlpsummit.org/ if you want further information. I’ll be there next year for sure! Thanks for reading!\n\nPS: Copilot helped writing this blog post, LLMs are amazing and I’m excited to see what the future holds for NLP!"
   },
   {
-    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#prototypical-networks-for-interpretable-diagnosis-prediction",
-    "href": "posts/NLP_Summit_Healthcare_2023/index.html#prototypical-networks-for-interpretable-diagnosis-prediction",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "3. Prototypical Networks for Interpretable Diagnosis Prediction",
-    "text": "3. Prototypical Networks for Interpretable Diagnosis Prediction\nBetty van Aken from DATEXIS Research Group presented about a language model that makes predictions based on parts of the text that are similar to prototypical patients providing justifications that doctors understand. It uses a prototypical network with label-wise attention to find the most similar patients to the input text and then uses a transformer to predict the diagnosis. This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.\nCheck their demo and the paper here: This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text"
+    "objectID": "posts/webapp/index.html",
+    "href": "posts/webapp/index.html",
+    "title": "Webapps and tutorials",
+    "section": "",
+    "text": "This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding throught many youtube tutorials on both backend and frontend structure.\nFor the backend I’ve been cruising through Pinecone, LangChain and OpenAI API, thanks to tutorials form James Briggs and Data independent. Google colab has been my best friend.\nEven though the backend is the new exiting stuff, I have a sweet spot for the way it’s presented. The frontend must:\nI started with Flask/Dash vs Django, and after some thought, since i have built with it before, I picked Dash. I ended up building a scafold, the development was faster this time arround but it required some hardcode. The result was OK but not stunning. Dash is pretty taxing on layout and design. I deployed it on render (that was a first :smile:)\nLast night I discovered Streamlit. I was captivated by it’s beauty and simplicity and ended up creating a simple scafolding witht he help of Fanilo, Misra Turp and Coding Is Fun tutorials.\nThis morning I stumbled again on Pynecone and I was amazed (thanks to NeuralNine’s video), it seem to a have all I need for my simple implementation. It’s on alpha stage, but I guess I’ll give it a try.\nIf that wasn’t enought, it seems that FastAPI can also serve as a framework for a webapp. This will be fun…\nI’m not sure what framework will I end up with. Let’s keep going!"
   },
   {
-    "objectID": "posts/NLP_Summit_Healthcare_2023/index.html#ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records",
-    "href": "posts/NLP_Summit_Healthcare_2023/index.html#ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records",
-    "title": "NLP Summit Healthcare 2023",
-    "section": "4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records",
-    "text": "4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records\nAI in healthcare has important privacy concerns, especially when dealing with sensitive data like Eletronic Health Records. Cloud AI Team presented one way to overcome this challenges is to generating high-fidelity, privacy-preserving synthetic HR data. They propose generative modeling framework, EHR-Safe, that can generate highly realistic synthetic EHR data that are robust to privacy attacks\nEHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records"
+    "objectID": "posts/webapp/index.html#section",
+    "href": "posts/webapp/index.html#section",
+    "title": "Webapps and tutorials",
+    "section": "",
+    "text": "Some stuff I found useful this week:\n\nemoji cheat sheet - emoji code list\nhttps://cssgradient.io/ - tool to create gradients\nData Color Picker - Palette, Single Hue and Divergent color generators"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "NLP Summit Healthcare 2023\n\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWebapps and tutorials\n\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHello, world!\n\n\n\n\n\n\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Diogo Carapito\nMedical Doctor, Studied @NOVA Medical School\n3rd year General and Family Medicine resident @ARSLVT, Portugal\nPostgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS"
   }
 ]

@@ -150,20 +150,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This week I attended the <strong><a href="https://www.nlpsummit.org/">NLP Summit Healthcare</a></strong> 2023, a free virual event organized by the <a href="https://www.johnsnowlabs.com/">John Snow Labs</a>. It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.</p>
+<p>This week I attended the <strong><a href="https://www.nlpsummit.org/" target="_blank">NLP Summit Healthcare</a></strong> 2023, a free virual event organized by the <a href="https://www.johnsnowlabs.com/">John Snow Labs</a>. It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.</p>
 <p><img src="https://www.nlpsummit.org/wp-content/uploads/2021/02/NLP-Summit-Healthcare-logo.png" title="NLP Summit Healthcare" class="img-fluid" style="width:50.0%" data-align="center"></p>
 <section id="best-practices-when-developing-nlp-models" class="level2">
 <h2 class="anchored" data-anchor-id="best-practices-when-developing-nlp-models">1. Best practices when developing NLP models</h2>
-<p>Presented in the opening keynote by Dr.&nbsp;David Gondek, Chief Data Scientist at <a href="https://www.johnsnowlabs.com/">John Snow Labs</a>, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</p>
+<p>Presented in the opening keynote by Dr.&nbsp;David Gondek, Chief Data Scientist at <a href="https://www.johnsnowlabs.com/" target="_blank">John Snow Labs</a>, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</p>
 <ol type="1">
 <li><strong>Test your models!</strong> - why would you expect untested software to work? Test your models with real data and real use cases and acess it’s performance.</li>
 <li><strong>Don’t reuse academic models in production</strong> - published reserach ≠ building reliable systems, testing and fine-tuning are essencial parts of developing a functional tool.</li>
-<li><strong>Test beyond accuracy</strong> - Test for Rubustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed <a href="https://nlptest.org/">NLP test</a> to help with model testing beyond regular benchmarks.</li>
+<li><strong>Test beyond accuracy</strong> - Test for Rubustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed <a href="https://nlptest.org/" target="_blank">NLP test</a> to help with model testing beyond regular benchmarks.</li>
 </ol>
 </section>
 <section id="mitigating-bias-in-healthcare-language-models" class="level2">
 <h2 class="anchored" data-anchor-id="mitigating-bias-in-healthcare-language-models">2. Mitigating bias in healthcare language models</h2>
-<p><strong>Gaurav Kaushik</strong> from <a href="https://www.science.io/">ScienceIO</a> presented a talk about mitigating bias in healthcare language models and the importance of it’s evaluation. Performance benchmarks lack the statistical power, they aren’t well validated enought and don’t disencentivize the use of biased systems.</p>
+<p><strong>Gaurav Kaushik</strong> from <a href="https://www.science.io/" target="_blank">ScienceIO</a> presented a talk about mitigating bias in healthcare language models and the importance of it’s evaluation. Performance benchmarks lack the statistical power, they aren’t well validated enought and don’t disencentivize the use of biased systems.</p>
 <ul>
 <li><strong>Algorithmic bias</strong>
 <ul>
@@ -177,53 +177,53 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Demographic bias</strong> - improper sensitivity to race or gender, or impaired performance on attributes related to subgroups</li>
 <li><strong>Domain Bias</strong> - error bias in medical subdomains, such as disease areas, which can impair generalization</li>
 </ul>
-<p>Check this article for further information: <a href="https://aclanthology.org/2020.acl-main.442.pdf">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList</a></p>
+<p>Check this article for further information: <a href="https://aclanthology.org/2020.acl-main.442.pdf" target="_blank">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList</a></p>
 </section>
 <section id="prototypical-networks-for-interpretable-diagnosis-prediction" class="level2">
 <h2 class="anchored" data-anchor-id="prototypical-networks-for-interpretable-diagnosis-prediction">3. Prototypical Networks for Interpretable Diagnosis Prediction</h2>
 <p><strong>Betty van Aken</strong> from DATEXIS Research Group presented about a language model that makes predictions based on parts of the text that are similar to prototypical patients providing justifications that doctors understand. It uses a prototypical network with label-wise attention to find the most similar patients to the input text and then uses a transformer to predict the diagnosis. This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.</p>
-<p>Check their <a href="https://protopatient.demo.datexis.com/">demo</a> and the paper here: <a href="https://aclanthology.org/2022.aacl-main.14.pdf">This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text</a></p>
+<p>Check their <a href="https://protopatient.demo.datexis.com/" target="_blank">demo</a> and the paper here: <a href="https://aclanthology.org/2022.aacl-main.14.pdf" target="_blank">This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text</a></p>
 </section>
 <section id="ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records" class="level2">
 <h2 class="anchored" data-anchor-id="ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records">4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records</h2>
 <p>AI in healthcare has important privacy concerns, especially when dealing with sensitive data like Eletronic Health Records. Cloud AI Team presented one way to overcome this challenges is to generating high-fidelity, privacy-preserving synthetic HR data. They propose generative modeling framework, EHR-Safe, that can generate highly realistic synthetic EHR data that are robust to privacy attacks</p>
-<p><a href="https://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html">EHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records</a></p>
+<p><a href="https://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html" target="_blank">EHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records</a></p>
 </section>
 <section id="some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare" class="level2">
 <h2 class="anchored" data-anchor-id="some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare">5. Some organizations that are doing interesting work in NLP in healthcare:</h2>
 <ul>
-<li><a href="https://www.johnsnowlabs.com/">John Snow Labs</a> - organizer of the summit and creator of state-of-the-art NLP in healthcare, like <a href="https://github.com/johnsnowlabs/nlptest">NLP test</a> and <a href="https://sparknlp.org/">SparkNLP</a></li>
-<li><a href="https://discoverylab.ai/">Discovery Lab</a> - Lab funded by Elsevier, Vrije Universiteit Amsterdam and the University of Amsterdam that operates at the crossroads of Knowledge Representation, Machine Learning and Natural Language Processing.</li>
-<li><a href="https://www.neuralmed.ai/en">NeuralMed</a> - an healthcare AI company that develops AI solutions for the healthcare industry.</li>
-<li><a href="https://www.science.io/">Science IO</a> - works on medical text into enriched data to build solutions that improve patient care.</li>
-<li><a href="https://github.com/DATEXIS">DATEXIS</a> - Data Science and Text-based Information Systems (DATEXIS) group at Beuth University of Applied Sciences Berlin</li>
+<li><a href="https://www.johnsnowlabs.com/" target="_blank">John Snow Labs</a> - organizer of the summit and creator of state-of-the-art NLP in healthcare, like <a href="https://github.com/johnsnowlabs/nlptest">NLP test</a> and <a href="https://sparknlp.org/">SparkNLP</a></li>
+<li><a href="https://discoverylab.ai/" target="_blank">Discovery Lab</a> - Lab funded by Elsevier, Vrije Universiteit Amsterdam and the University of Amsterdam that operates at the crossroads of Knowledge Representation, Machine Learning and Natural Language Processing.</li>
+<li><a href="https://www.neuralmed.ai/en" target="_blank">NeuralMed</a> - an healthcare AI company that develops AI solutions for the healthcare industry.</li>
+<li><a href="https://www.science.io/" target="_blank">Science IO</a> - works on medical text into enriched data to build solutions that improve patient care.</li>
+<li><a href="https://github.com/DATEXIS" target="_blank">DATEXIS</a> - Data Science and Text-based Information Systems (DATEXIS) group at Beuth University of Applied Sciences Berlin</li>
 </ul>
 </section>
 <section id="this-is-a-list-of-some-interesting-projects-that-were-presented-at-the-summit" class="level2">
 <h2 class="anchored" data-anchor-id="this-is-a-list-of-some-interesting-projects-that-were-presented-at-the-summit">6. This is a list of some interesting projects that were presented at the summit:</h2>
 <ul>
-<li><a href="https://sparknlp.org/">Spark NLP</a> - an open source text processing library for Python, Java, and Scala.</li>
-<li><a href="https://nlptest.org/">NLP test/</a> - a suit of tests to mitigating bias for NLP models.</li>
-<li><a href="https://huggingface.co/stanford-crfm/BioMedLM">BioMedLM</a> - a GPT style language model trained on biomedical abstracts and papers.</li>
-<li><a href="https://huggingface.co/microsoft/biogpt">BioGPT</a> - a pre-trained language models on the biomedical domain.</li>
-<li><a href="https://protopatient.demo.datexis.com/">ProtoPatient Demo</a> - diagnsotic predictions using clinical text and prototypical patients.</li>
-<li><a href="https://huggingface.co/datasets/mitclinicalml/clinical-ie">Clinical IE</a> - a Large Language Model for information extraction of Clinical Text</li>
+<li><a href="https://sparknlp.org/" target="_blank">Spark NLP</a> - an open source text processing library for Python, Java, and Scala.</li>
+<li><a href="https://nlptest.org/" target="_blank">NLP test/</a> - a suit of tests to mitigating bias for NLP models.</li>
+<li><a href="https://huggingface.co/stanford-crfm/BioMedLM" target="_blank">BioMedLM</a> - a GPT style language model trained on biomedical abstracts and papers.</li>
+<li><a href="https://huggingface.co/microsoft/biogpt" target="_blank">BioGPT</a> - a pre-trained language models on the biomedical domain.</li>
+<li><a href="https://protopatient.demo.datexis.com/" target="_blank">ProtoPatient Demo</a> - diagnsotic predictions using clinical text and prototypical patients.</li>
+<li><a href="https://huggingface.co/datasets/mitclinicalml/clinical-ie" target="_blank">Clinical IE</a> - a Large Language Model for information extraction of Clinical Text</li>
 </ul>
 </section>
 <section id="finally-ill-share-some-of-the-articles-that-were-cited-in-the-talks" class="level2">
 <h2 class="anchored" data-anchor-id="finally-ill-share-some-of-the-articles-that-were-cited-in-the-talks">Finally, I’ll share some of the articles that were cited in the talks:</h2>
 <ul>
-<li><a href="https://arxiv.org/abs/2009.10795">Dataset Carto graphy: Mapping and Diagnosing Datasets with Training Dynamics</a></li>
-<li><a href="https://compass.onlinelibrary.wiley.com/doi/10.1111/lnc3.12432">Five sources of bias in natural language processing</a></li>
-<li><a href="https://aclanthology.org/2020.acl-main.442.pdf">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList</a></li>
-<li><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00425/108201/Quantifying-Social-Biases-in-NLP-A-Generalization">Quantifying Social Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness Metrics</a></li>
-<li><a href="https://arxiv.org/pdf/2109.07958.pdf">TruthfulQA: Measuring How Models Mimic Human Falsehoods</a></li>
-<li><a href="https://aclanthology.org/2022.aacl-main.14.pdf">This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text</a></li>
-<li><a href="https://assesschild.com/physician-global-assessment">Physician Global Assessment (PGA)</a></li>
-<li><a href="https://www.researchsquare.com/article/rs-2347130/v1">EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records</a></li>
-<li><a href="https://platform.openai.com/docs/guides/fine-tuning">Open AI Fine-tuning guide</a></li>
+<li><a href="https://arxiv.org/abs/2009.10795" target="_blank">Dataset Carto graphy: Mapping and Diagnosing Datasets with Training Dynamics</a></li>
+<li><a href="https://compass.onlinelibrary.wiley.com/doi/10.1111/lnc3.12432" target="_blank">Five sources of bias in natural language processing</a></li>
+<li><a href="https://aclanthology.org/2020.acl-main.442.pdf" target="_blank">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList</a></li>
+<li><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00425/108201/Quantifying-Social-Biases-in-NLP-A-Generalization" target="_blank">Quantifying Social Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness Metrics</a></li>
+<li><a href="https://arxiv.org/pdf/2109.07958.pdf" target="_blank">TruthfulQA: Measuring How Models Mimic Human Falsehoods</a></li>
+<li><a href="https://aclanthology.org/2022.aacl-main.14.pdf" target="_blank">This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text</a></li>
+<li><a href="https://assesschild.com/physician-global-assessment" target="_blank">Physician Global Assessment (PGA)</a></li>
+<li><a href="https://www.researchsquare.com/article/rs-2347130/v1" target="_blank">EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records</a></li>
+<li><a href="https://platform.openai.com/docs/guides/fine-tuning" target="_blank">Open AI Fine-tuning guide</a></li>
 </ul>
-<p>There were many more interesting sessions, visit <a href="https://www.nlpsummit.org/">https://www.nlpsummit.org/</a> if you want further information. I’ll be there next year for sure! Thanks for reading!</p>
+<p>There were many more interesting sessions, visit <a href="https://www.nlpsummit.org/" target="_blank">https://www.nlpsummit.org/</a> if you want further information. I’ll be there next year for sure! Thanks for reading!</p>
 <hr>
 <p>PS: Copilot helped writing this blog post, LLMs are amazing and I’m excited to see what the future holds for NLP!</p>
 
