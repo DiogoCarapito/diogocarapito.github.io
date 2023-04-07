@@ -17,4 +17,4 @@ jobs:
     - name: Create gh-pages
       run: |
         git checkout -b gh-page
-        git push -u origin tgh-pages
+        git push -u origin gh-pages
