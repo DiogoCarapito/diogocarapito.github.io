@@ -14,13 +14,13 @@ This week I attended the **[NLP Summit Healthcare](https://www.nlpsummit.org/){t
 Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at [John Snow Labs](https://www.johnsnowlabs.com/){target="_blank"}, he sumarized some best practices that i found interesting as I'm beginning my NLP journey:
 
 1. **Test your models!** - why would you expect untested software to work? Test your models with real data and real use cases and acess it's performance.
-2. **Don't reuse academic models in production** - published reserach ≠ building reliable systems, testing and fine-tuning are essencial parts of developing a functional tool.
+2. **Don't reuse academic models in production** - published research ≠ building reliable systems, testing and fine-tuning are essencial parts of developing a functional tool.
 3. **Test beyond accuracy** - Test for Rubustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed [NLP test](https://nlptest.org/){target="_blank"} to help with model testing beyond regular benchmarks.
 
 ## 2. Mitigating bias in healthcare language models
 
 **Gaurav Kaushik** from [ScienceIO](https://www.science.io/){target="_blank"} presented a talk about mitigating bias in healthcare language models and the importance of it's evaluation.
-Performance benchmarks lack the statistical power, they aren't well validated enough and don't disencentivize the use of biased systems.
+Performance benchmarks lack the statistical power, they aren't well validated enough and don't incentivize the use of biased systems.
 
 - **Algorithmic bias**
     - Systematic and repeatable errors that yield unfair outcomes which benefit certain groups over others
