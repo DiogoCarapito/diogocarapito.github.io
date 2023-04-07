@@ -5,6 +5,7 @@ categories: [updates]
 image: Diogo DALL-E circle 512.png
 ---
 
+
 I've been charging into different directions on my journey to build a bridges between **health** and **tech** (NLP and LLMs, I'm looking at you). There is so much potential and I have so many ideas!
 
 So, lately I've been:
