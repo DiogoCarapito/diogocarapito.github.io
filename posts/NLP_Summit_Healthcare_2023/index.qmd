@@ -85,4 +85,4 @@ Thanks for reading!
 
 ---
 
-PS: Copilot helped writing this blog post, LLMs are amazing and I'm excited to see what the future holds for NLP!
+PS: Copilot helped writing this blog post. LLMs are amazing and I'm excited to see what the future holds for NLP!
