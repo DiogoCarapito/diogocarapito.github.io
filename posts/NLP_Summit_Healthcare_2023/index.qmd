@@ -5,7 +5,7 @@ categories: [learnings, nlp, healthcare]
 image: https://www.nlpsummit.org/wp-content/uploads/2021/02/NLP-Summit-Healthcare-logo.png
 ---
 
-This week I attended the **[NLP Summit Healthcare](https://www.nlpsummit.org/){target="_blank"}** 2023, a free virual event organized by the [John Snow Labs](https://www.johnsnowlabs.com/). It was a great event with a lot of interesting talks. I'll share some of my key takeaways.
+This week I attended the **[NLP Summit Healthcare](https://www.nlpsummit.org/){target="_blank"}** 2023, a free virtual event organized by the [John Snow Labs](https://www.johnsnowlabs.com/). It was a great event with a lot of interesting talks. I'll share some of my key takeaways.
 
 ![](https://www.nlpsummit.org/wp-content/uploads/2021/02/NLP-Summit-Healthcare-logo.png "NLP Summit Healthcare"){ width=50% align="center" }
 
@@ -20,7 +20,7 @@ Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at [J
 ## 2. Mitigating bias in healthcare language models
 
 **Gaurav Kaushik** from [ScienceIO](https://www.science.io/){target="_blank"} presented a talk about mitigating bias in healthcare language models and the importance of it's evaluation.
-Performance benchmarks lack the statistical power, they aren't well validated enought and don't disencentivize the use of biased systems.
+Performance benchmarks lack the statistical power, they aren't well validated enough and don't disencentivize the use of biased systems.
 
 - **Algorithmic bias**
     - Systematic and repeatable errors that yield unfair outcomes which benefit certain groups over others

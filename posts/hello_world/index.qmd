@@ -6,7 +6,7 @@ image: Diogo DALL-E circle 512.png
 ---
 
 
-I've been charging into different directions on my journey to build a bridges between **health** and **tech** (NLP and LLMs, I'm looking at you). There is so much potential and I have so many ideas!
+I've been charging into different directions on my journey to build a bridge between **health** and **tech** (NLP and LLMs, I'm looking at you). There is so much potential and I have so many ideas!
 
 So, lately I've been:
 
@@ -15,7 +15,7 @@ So, lately I've been:
 - reconnecting to **social media** (I've been away for a while now), setting up linkedin, twitter and joining relevant discord servers
 - after completing Postgraduate Program in Information Management and Business Intelligence in Healthcare @[NOVA IMS](https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/), I felt the need to keep learning about data mining, so i'm doing a single course on **Predictive Methods of Data Mining**
 - exploring DL, ML, NLP and LLM main concepts and recent developments (looking at you [chatbase.co](https://www.chatbase.co/), [ChatPDF](https://www.chatpdf.com) and [Quarto Help Bot](https://quarto-bot.onrender.com/))
-- trying and failing implmenenting LLMs with jupyter notebooks
+- trying and failing implementing LLMs with jupyter notebooks
 - exploring how to start a **blog** (thanks fast.ai for the push!)
 
 Initially I thought implementing a blog with **Dash** and publish it on [pythonanywhere.com](https://www.pythonanywhere.com/), since I've worked with Flask in the past months. But that would take more time to set up something that might be already solved.

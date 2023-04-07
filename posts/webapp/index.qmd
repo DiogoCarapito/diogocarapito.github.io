@@ -6,7 +6,7 @@ image: pynecone gpt Q&A.png
 ---
 
 
-This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I've been speeding throught many youtube tutorials on both **backend** and **frontend** structure.
+This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I've been speeding through many youtube tutorials on both **backend** and **frontend** structure.
 
 For the **backend** I've been cruising through [Pinecone](https://www.pinecone.io/), [LangChain](https://langchain.readthedocs.io/en/latest/#) and OpenAI API, thanks to tutorials form [James Briggs](https://www.youtube.com/@jamesbriggs) and [Data independent](https://www.youtube.com/@DataIndependent). Google colab has been my best friend.
 
