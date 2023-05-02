@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "NLP Summit Healthcare 2023\n\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWebapps and tutorials\n\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHello, world!\n\n\n\n\n\n\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "mgfhub.com is now live!\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2, 2023\n\n\n\n\n\n\n  \n\n\n\n\nNLP Summit Healthcare 2023\n\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWebapps and tutorials\n\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHello, world!\n\n\n\n\n\n\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -89,5 +89,12 @@
     "title": "About",
     "section": "",
     "text": "Diogo Carapito\nMedical Doctor, Studied @NOVA Medical School\n3rd year General and Family Medicine resident @ARSLVT, Portugal\nPostgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS\n\nOngoing projects:\n\nmgfhub.com, a webapp to help search and find information primary care KPI’s."
+  },
+  {
+    "objectID": "posts/mgfhub/index.html",
+    "href": "posts/mgfhub/index.html",
+    "title": "mgfhub.com is now live!",
+    "section": "",
+    "text": "I’m excited to announce that mgfhub.com is now live!\n\nIt’s as a sort of “data visualization” for KPI’s (indicadores) in Portuguese Primary Care. I imagined it for more than a year, and it’s trying to answer questions that I have in my day to day work:\n\nHow many do exist?\nHow do this KPI’s work\nHow to find specific KPI’s (eg: which are related to diabetes?)\nWhat’s the impact of each KPI in the main performance index (IDG)?\n\n\nI also wanted to provide an easy link to SDM, a official platform with all the details of each KPI, but navigation is not very intuitive (you had to know the number of the KPI and then put it on a hiperlink. It’s messy).\nI’ve used Flask as my framework, Dash and Bootstrap to make it pretty. I’ve hosted it on Render and the Cloudflare to manage the domain.\nThere are still some rough edges, it’s a work in progress, but I’m happy with the results so far. =)"
   }
 ]
