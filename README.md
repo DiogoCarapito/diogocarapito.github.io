@@ -1,3 +1,2 @@
-My personal blog
-
-Available at [diogocarapito.com](diogocarapito.com)
+Old personal blog made with quarto.org
+new one made with HUGO
